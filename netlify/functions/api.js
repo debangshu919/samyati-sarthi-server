@@ -2,8 +2,8 @@ import express, { Router } from 'express';
 import serverless from "serverless-http";
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import { PORT } from 'https://profound-dusk-078fbd.netlify.app/.netlify/functions/config';
-import chatbot from 'https://profound-dusk-078fbd.netlify.app/.netlify/functions/assistant';
+import { PORT } from '../../config.js';
+import chatbot from '../../assistant.js';
 
 const router = Router();
 const app = express();

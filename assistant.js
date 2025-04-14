@@ -1,5 +1,5 @@
 import { OpenAI } from "openai";
-import { NEBIUS_API_KEY } from "https://profound-dusk-078fbd.netlify.app/.netlify/functions/config";
+import { NEBIUS_API_KEY } from "./config.js";
 
 const client = new OpenAI({
     baseURL: "https://api.studio.nebius.com/v1/",
