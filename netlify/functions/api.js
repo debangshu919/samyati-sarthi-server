@@ -32,5 +32,5 @@ router.get('/chatbot', async (req, res) => {
 //     console.log(`Server is running on http://localhost:${PORT}`);
 // })
 
-app.use('api/', router);
+app.use('/api/', router);
 export const handler = serverless(app);
