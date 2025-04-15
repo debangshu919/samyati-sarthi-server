@@ -7,7 +7,7 @@ This repo serves as the API endpoint of the [main project](https://github.com/Sh
 > Params
 ```sh
 {
-prompt: "las vegas"
+prompt: "amsterdam"
 }
 ```
 
@@ -18,9 +18,9 @@ prompt: "las vegas"
     "status": "success",
     "message": "Data fetched successfully",
     "request": {
-        "prompt": "las vegas"
+        "prompt": "amsterdam"
     },
-    "response": "Las Vegas is a world-famous destination known for its vibrant nightlife, entertainment options, and iconic landmarks like the Strip, the High Roller observation wheel, and the iconic Bellagio fountains. Visitors can also explore the surrounding Grand Canyon, Hoover Dam, and other natural wonders."
+    "response": "Amsterdam is a beautiful city in the Netherlands known for its canals, art museums, and liberal attitude. Best time to visit is June-September. The city is relatively safe, but pickpocketing is a common crime, so take necessary precautions."
 }
 ```
 
