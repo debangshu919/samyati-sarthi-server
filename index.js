@@ -12,6 +12,10 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // API ROUTES
+app.get('/', (req, res) => {
+    res.status(200).send('Welcome to the Samyati Sarthi API! Please use /api/chatbot or /api/weather endpoints.');
+});
+
 router.get('/chatbot', async (req, res) => {
     const { prompt } = req.query;
 
