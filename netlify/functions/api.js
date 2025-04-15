@@ -13,6 +13,10 @@ app.use(cors());
 
 // API ROUTES
 
+app.get('/', (req, res) => {
+    res.status(200).send('<h1>Welcome to the Samyati Sarthi API!</h1><h3>Please use /api/chatbot or /api/weather endpoints.</h3>');
+})
+
 router.get('/chatbot', async (req, res) => {
     const { prompt } = req.query;
 
