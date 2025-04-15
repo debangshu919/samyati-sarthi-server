@@ -24,3 +24,69 @@ prompt: "las vegas"
 }
 ```
 
+> ### 2. **`/api/weather`**
+#### sample API request
+> Params
+```sh
+{
+city: "tokyo"
+}
+```
+
+#### sample API response
+```sh
+{
+    "statusCode": 200,
+    "status": "success",
+    "message": "Data fetched successfully",
+    "request": {
+        "city": "Tokyo"
+    },
+    "response": {
+        "coord": {
+            "lon": 139.6917,
+            "lat": 35.6895
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 20,
+            "feels_like": 18.81,
+            "temp_min": 19.03,
+            "temp_max": 21.45,
+            "pressure": 990,
+            "humidity": 29,
+            "sea_level": 990,
+            "grnd_level": 987
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 12.86,
+            "deg": 200,
+            "gust": 19.03
+        },
+        "clouds": {
+            "all": 20
+        },
+        "dt": 1744696371,
+        "sys": {
+            "type": 2,
+            "id": 268395,
+            "country": "JP",
+            "sunrise": 1744661325,
+            "sunset": 1744708409
+        },
+        "timezone": 32400,
+        "id": 1850144,
+        "name": "Tokyo",
+        "cod": 200
+    }
+}
+```
