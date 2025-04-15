@@ -1,5 +1,6 @@
 # Samyati Sarthi
 This repo serves as the API endpoint of the project.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/edd59f03-662d-4766-a3a8-1b0ee0bc3288/deploy-status)](https://app.netlify.com/sites/samyati-sarthi/deploys)
 
 ## Endpoints
 > ### 1. **`/api/chatbot`**
