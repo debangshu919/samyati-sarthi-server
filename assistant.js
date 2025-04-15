@@ -22,42 +22,6 @@ export async function chatbot(prompt) {
                     "content": [
                         {
                             "type": "text",
-                            "text": "dubai"
-                        }
-                    ]
-                },
-                {
-                    "role": "assistant",
-                    "content": [
-                        {
-                            "type": "text",
-                            "text": "Dubai is a popular destination known for its luxurious shopping, stunning architecture, and vibrant nightlife. The city offers a unique blend of traditional Arabian culture and modern amenities, making it a must-visit destination for travelers. Some popular attractions in Dubai include the Burj Khalifa, Dubai Mall, and the Dubai Fountain show."
-                        }
-                    ]
-                },
-                {
-                    "role": "user",
-                    "content": [
-                        {
-                            "type": "text",
-                            "text": "miami"
-                        }
-                    ]
-                },
-                {
-                    "role": "assistant",
-                    "content": [
-                        {
-                            "type": "text",
-                            "text": "Miami is a vibrant city in Florida known for its beautiful beaches, art deco architecture, and lively nightlife. It's a popular destination for tourists, with attractions like South Beach, the Everglades, and the Vizcaya Museum and Gardens. Miami's diverse culture and cuisine also make it a great base for exploring the surrounding area."
-                        }
-                    ]
-                },
-                {
-                    "role": "user",
-                    "content": [
-                        {
-                            "type": "text",
                             "text": prompt
                         }
                     ]
